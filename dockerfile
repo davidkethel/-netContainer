@@ -18,7 +18,8 @@ WORKDIR /app
 COPY --from=build /app/out ./
 
 # Expose the port your application will run
-EXPOSE 80
+EXPOSE 8080
+EXPOSE 5242
 
 # Start the application
 ENTRYPOINT ["dotnet", "netContainer.dll"]
