@@ -1,0 +1,6 @@
+@netContainer_HostAddress = http://localhost:5242
+
+GET {{netContainer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
